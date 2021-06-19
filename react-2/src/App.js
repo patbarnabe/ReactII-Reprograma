@@ -5,7 +5,7 @@ import './styles/app.css'
 function App() {
   return (
     <div>
-      <Titulo>Harry Potter</Titulo>
+      <Titulo>Harry Potter 🔮</Titulo>
       <HarryPotter />
   </div>
   );

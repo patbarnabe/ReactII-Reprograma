@@ -1,0 +1,11 @@
+.titulo {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 80px;
+    margin-bottom: 2%;
+}
+
+.div_titulo{
+    display: flex;
+    justify-content: center;
+}

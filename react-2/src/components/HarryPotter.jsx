@@ -22,15 +22,15 @@ const HarryPotter = () => {
     }, [busca, personagens])
 
     return (
-        <>
-            <input placeholder="Digite um personagem" onChange={e => {setBusca(e.target.value)}} />
+        <div class="main">
+            <input placeholder="Digite o nome de um personagem" onChange={e => {setBusca(e.target.value)}} />
             {filtroPersonagem.map(personagem => (
                 <div key={personagem.actor}>
                     <img src={personagem.image} alt={personagem.name}/>
                     <p>{personagem.name}</p>
                 </div>
             ))}
-        </>
+        </div>
     )
 }
 
