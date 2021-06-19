@@ -22,7 +22,7 @@ const HarryPotter = () => {
     }, [busca, personagens])
 
     return (
-        <div class="main">
+        <div className="main">
             <input placeholder="Digite o nome de um personagem" onChange={e => {setBusca(e.target.value)}} />
             {filtroPersonagem.map(personagem => (
                 <div key={personagem.actor}>
